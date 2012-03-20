@@ -1,10 +1,10 @@
 lib = File.expand_path('../lib/', __FILE__)
 $:.unshift lib unless $:.include?(lib)
-require 'rack/fiber_pool'
+#require 'rack/fiber_pool'
 
 Gem::Specification.new do |s|
   s.name = %q{rack-fiber_pool}
-  s.version = Rack::FiberPool::VERSION
+  s.version = '0.9.1'  #Rack::FiberPool::VERSION
   s.authors = ["Mike Perham"]
   s.date = Time.now.utc.strftime("%Y-%m-%d")
   s.email = %q{mperham@gmail.com}
